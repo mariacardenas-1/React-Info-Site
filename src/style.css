@@ -1,12 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .nav-items {
     list-style: none;
     display: flex;
-    gap: 10px;
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.nav-items > li {
+    padding: 10px;
+}
+
+.nav-image {
+    width: 40px;
 }
