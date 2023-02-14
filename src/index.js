@@ -18,18 +18,42 @@ import ReactDOM from 'react-dom/client';
 
 // ReactDOM.render(page, document.getElementById("root"))
 
-function ReasonToLearnReact() {
-    return (
-        <div>
-            <h1>Reasons To Learn React</h1>
-            <ol>
-                <li>Working with components, allows you to create scalable and maintainble applications</li>
-                <li>Being written in JavaScript curve is fast</li>
-                <li>Gives us the perfect balance between profit and performance</li>
-                <li>The community is very active</li>
-            </ol>
-        </div>
-    )
+
+// ---------------------CUSTOM COMPONENTS PART 2---------------------------------------------------
+// function ReasonToLearnReact() {
+//     return (
+//         <div>
+//             <h1>Reasons To Learn React</h1>
+//             <ol>
+//                 <li>Working with components, allows you to create scalable and maintainble applications</li>
+//                 <li>Being written in JavaScript curve is fast</li>
+//                 <li>Gives us the perfect balance between profit and performance</li>
+//                 <li>The community is very active</li>
+//             </ol>
+//         </div>
+//     )
+// }
+
+// ReactDOM.render(<ReasonToLearnReact />, document.getElementById("root"))
+
+function Page() {
+  return (
+      <div>
+          <header>
+              <nav>
+              <img src="./react-logo.png" width="50px"/>
+              </nav>
+          </header>
+          <h1>Reasons to learn React</h1>
+          <ol>
+              <li>It's a popular library, so I'll be 
+              able to fit in with the cool kids!</li>
+              <li>I'm more likely to get a job as a developer
+              if I know React</li>
+          </ol>
+          <footer>© 2023 cardenas development. All rights reserved.</footer>
+      </div>
+  )
 }
 
-ReactDOM.render(<ReasonToLearnReact />, document.getElementById("root"))
+ReactDOM.render(<Page />, document.getElementById("root"))
