@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from "./Header"
-import Footer from "./Footer"
-import MainContent from "./MainContent"
+// import Header from "./Header"
+// import Footer from "./Footer"
+// import MainContent from "./MainContent"
 
 //---------------PROJECT PART 1-----------------------------------------------------------------
 // const page = (
@@ -294,14 +294,18 @@ import MainContent from "./MainContent"
 // --------------------------ORGANIZE COMPONENTS----------------------------------------------
 
 
-function Page() {
-  return (
-      <div>
-          <Header />
-          <MainContent />
-          <Footer />
-      </div>
-  )
-}
+// function Page() {
+//   return (
+//       <div>
+//           <Header />
+//           <MainContent />
+//           <Footer />
+//       </div>
+//   )
+// }
 
-ReactDOM.render(<Page />, document.getElementById("root"))
+// ReactDOM.render(<Page />, document.getElementById("root"))
+
+import App from './App';
+
+ReactDOM.render(<App />, document.getElementById("root"))
