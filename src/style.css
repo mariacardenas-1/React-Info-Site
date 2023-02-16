@@ -117,3 +117,8 @@ body {
     font-weight: 400;
     line-height: 40px;
 }
+
+.point-list::marker {
+ font-size:1.4rem;
+ color: #61DAFB;
+}
