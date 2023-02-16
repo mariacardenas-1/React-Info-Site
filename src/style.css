@@ -90,7 +90,9 @@ body {
 }
 
 .main {
-    position: absolute;
+    background-image: url('./images/react-icon-large.png');
+    background-repeat: no-repeat;
+    background-position: right;
     background-color: #282D35;
     width: 550px;
     height: 459px;
